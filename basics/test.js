@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 console.log("hello lol");
 =======
 const x = 36423647;
