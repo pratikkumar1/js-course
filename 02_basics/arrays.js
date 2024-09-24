@@ -14,7 +14,16 @@ const myArr = [0, 1, 2, 3, 4, 5, true, "hehe"];
 // console.log(myArr.indexOf("hehe"));
 
 
-const newArr = myArr.join();
-spacedArr = newArr.replaceAll(",", " ");
-console.log(spacedArr);
+// const newArr = myArr.join();
+// spacedArr = newArr.replaceAll(",", " ");
+// console.log(spacedArr);
 
+console.log("A", myArr);
+
+const myn1 = myArr.slice(1, 3);
+console.log(myn1);
+console.log("B", myArr);
+
+const myn2 = myArr.splice(1, 3);
+console.log(myn2);
+console.log("C", myArr);
